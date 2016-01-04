@@ -1,0 +1,12 @@
+baseurl = "http://cloudatomiclab.com"
+title = "Cloud Atomic Laboratory"
+theme = "purehugo"
+languageCode = "en-gb"
+copyright = "Justin Cormack"
+relativeURLs = "true"
+Paginate = "5"
+
+[Params]
+  twitterName = "justincormack"
+  githubName = "justincormack"
+  description = "Thoughts and stuff"
