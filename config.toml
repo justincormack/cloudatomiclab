@@ -1,4 +1,4 @@
-baseurl = "http://cloudatomiclab.com"
+baseurl = "https://www.cloudatomiclab.com"
 title = "Cloud Atomic Laboratory"
 theme = "purehugo"
 languageCode = "en-gb"
