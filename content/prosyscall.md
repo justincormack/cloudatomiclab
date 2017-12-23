@@ -6,8 +6,6 @@ tags = []
 title = "Eleven syscalls that rock the world"
 +++
 
-# Eleven syscalls that rock the world
-
 People ask me “Justin, what are your favourite system calls, that you look forward to their return codes?” Here I reveal all.
 
 ## 0. `read`

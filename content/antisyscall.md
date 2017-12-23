@@ -6,8 +6,6 @@ tags = []
 title = "Eleven syscalls that suck"
 +++
 
-# Eleven syscalls that suck
-
 People ask me “Justin, what system calls suck so much, suck donkeys for breakfast, like if Donald Trump were a syscall?” Here I reveal all.
 
 ## 0. `ioctl`
