@@ -8,6 +8,8 @@ title = "Eleven syscalls that suck"
 
 People ask me “Justin, what system calls suck so much, suck donkeys for breakfast, like if Donald Trump were a syscall?” Here I reveal all.
 
+If you don't like sucky syscalls, try [the eleven non sucky ones](https://www.cloudatomiclab.com/prosyscall/).
+
 ## 0. `ioctl`
 
 It can‘t decide if it‘s arguments are integers, strings, or some struct that is lost in the midst of time. Make up your mind! Plan 9 was invented to get rid of this.

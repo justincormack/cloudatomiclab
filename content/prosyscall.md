@@ -8,6 +8,8 @@ title = "Eleven syscalls that rock the world"
 
 People ask me “Justin, what are your favourite system calls, that you look forward to their return codes?” Here I reveal all.
 
+If you are in a bad mood you might prefer [sucky syscalls that should never have existed](https://www.cloudatomiclab.com/antisyscall/).
+
 ## 0. `read`
 
 You cannot go wrong with a `read`. You can barely `EFAULT` it! On Linux amd64 it is syscall zero. If all its arguments are zero it returns zero. Cool!
