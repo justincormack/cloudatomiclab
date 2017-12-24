@@ -48,8 +48,8 @@ Still has an obsolete timezone value from an old times when people thought timez
 
 ## 9. `splice` and `tee`
 
-These, back in [https://lwn.net/Articles/119682/](2005) were a quite nice idea, although Linux said then "it is incomplete, the interfaces are ugly, and it will oops the system if anything goes wrong". It won't oops your system now, but usage has not taken off. The nice idea from Linus was that a pipe is just a ring buffer in the kernel, that can have a more general API and use cases for performant code, but a decade on it hasn't really worked out. It was also supposed to be a more general `sendfile`, which in many ways was the successor of that Tux web server, but I think `sendfile` is still more widely used.
+These, back in [2005](https://lwn.net/Articles/119682/) were a quite nice idea, although Linux said then "it is incomplete, the interfaces are ugly, and it will oops the system if anything goes wrong". It won't oops your system now, but usage has not taken off. The nice idea from Linus was that a pipe is just a ring buffer in the kernel, that can have a more general API and use cases for performant code, but a decade on it hasn't really worked out. It was also supposed to be a more general `sendfile`, which in many ways was the successor of that Tux web server, but I think `sendfile` is still more widely used.
 
 ## 10. `userfaultfd`
 
-Yes, I like file descriptors. Yes [https://criu.org/Main_Page](CRIU) is kind of cool. But userspace handling page faults? Is nothing sacred? I get that you can do this badly with a `SIGSEGV` handler, but talk about lipstick on a pig.
+Yes, I like file descriptors. Yes [CRIU](https://criu.org/Main_Page) is kind of cool. But userspace handling page faults? Is nothing sacred? I get that you can do this badly with a `SIGSEGV` handler, but talk about lipstick on a pig.
