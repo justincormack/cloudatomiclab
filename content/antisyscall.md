@@ -20,7 +20,7 @@ Just like `ioctl` but for some different miscellaneous operations, because one m
 
 ## 2. `tuxcall`
 
-Linux put a web server in the kernel! To win a benchmark contest with Microsoft! It had it‘s own syscall! My `enum tux_reactions` are YUK! Don‘t worry though, it was a distro patch (thanks Red Hat!) and never made it upstream, so only the man page and reserved number survive to taunt you and remind you that the path of the righteous is beset by premature optmization!
+Linux put a web server in the kernel! To win a benchmark contest with Microsoft! It had it‘s own syscall! My `enum tux_reactions` are YUK! Don‘t worry though, it was a distro patch (thanks Red Hat!) and never made it upstream, so only the man page and reserved number survive to taunt you and remind you that the path of the righteous is beset by premature optimization!
 
 ## 3. `io_setup`
 
