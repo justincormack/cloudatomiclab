@@ -130,12 +130,14 @@ you have the capability you perform an action. If the capability is public, or
 widely distributed, this corresponds more or less to a public web API, although 
 with encryption.
 
-`XK` is the equivalent in web terms of providing a (validated) login along with 
+`XK`, and `IK` are the equivalent in web terms of providing a (validated) login along with 
 the connection. The initiator passes a public key (which could be a capability, 
 or just used as a key) during the handshake. If you want to store some data 
 which is attached to the identity you use as the passed public key, this 
 handshake makes sense. Note that the initiator can create any number of public 
-keys, so the key is not a unique identifier, just one chosen identity.
+keys, so the key is not a unique identifier, just one chosen identity. `IK` is
+the same semantics but has a different, shorter, handshake with slightly different
+security properties; it is the one used by Wireguard.
 
 `KK` is an unusual handshake in traditional capability terms; it requires that 
 both parties know in advance each other's public key, ie that there is in a 
@@ -180,4 +182,5 @@ three one way patterns for capability based exchanges. No additional
 certificates or central source of authorisation is needed other than public and 
 private key pairs for Diffie Hellmann exchanges. Public keys can be used as 
 capabilities; private keys give the ability to provide services. The system is 
-decentralised, encrypted and simple.
+decentralised, encrypted and simple. And there are interesting properties of
+mutual capabilities that can be used if required.
