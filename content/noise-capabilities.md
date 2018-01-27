@@ -113,6 +113,13 @@ XX pattern allows two parties who do not know each other to communicate and
 exchange keys. The XX echange still requires some sort of authentication, such 
 as certificates to see if the two parties should trust each other.
 
+Note that [Trevor Perrin pointed
+out](https://moderncrypto.org/mail-archive/noise/2018/001439.html) that just
+using a public key is dangerous and using a pre-shared key (psk) in addition is
+a better design. So you should use psk+public key as the capability. This
+means that accidentally sharing the public key in a handshake is not a
+disastrous event.
+
 When using keys as capabilities though we always know the public key (aka 
 capability) of the service we want to connect to. In [Noise 
 spec](http://noiseprotocol.org/noise.html#interactive-patterns) notation, that 
@@ -160,14 +167,6 @@ so the ability to read database records does not mean the ability to forge
 them, improving security. It also fits much better in a capabilities world, and 
 is simpler as there is only one type of key, rather than having two types and 
 complex key management.
-
-Noise also supports an additional pre shared symmetric key which both parties 
-must know in addition to the asymetric keys. You could use this as an 
-additional access gateway, to define a domain of communication, if you think 
-the capabilities might leak. I don't thimkk this helps much as if the 
-capabilities can leak the pre shared key can leak too. It could make sense for 
-defining isolated systems that cannot communicate though; the main purpose is 
-post quantum crypto resistence though. 
 
 ## Summary
 
