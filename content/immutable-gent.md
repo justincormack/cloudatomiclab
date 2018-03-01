@@ -16,7 +16,7 @@ Did I mention that Gent is a lovely Belgian town?
 
 The slides [can be downloaded here](/Making Immutable Infrastructure simpler with LinuxKit.pdf).
 
-The video should be available shortly.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DmcSo1Wts0Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Below is a brief summary.
 
