@@ -6,7 +6,7 @@ tags = []
 title = "Open Source and Cloud: who eats who?"
 +++
 
-<img src="/Eduardo-Paolozzi-Cloud-Atomic-Laboratory-Chimpanzee-in-Test-Box-Designed-For-Space-Flight.jpg" width="60%"/>
+<img src="/Eduardo-Paolozzi-Cloud-Atomic-Laboratory-Chimpanzee-in-Test-Box-Designed-For-Space-Flight.jpg" width="80%"/>
 
 Having been on holiday there has been a bit of an outburst of discussion around new licenses for open source, or less open source code. But in many ways the more interesting piece, that puts it in context was Joseph Jacks' seventh Open Consensus piece, ["OSS Will Eat Cloud Computing"](https://medium.com/open-consensus/7-oss-will-eat-all-of-cloud-computing-40fdbf9c1da0). The Redis arguments about changing some code from the anti cloud provider AGPL to a no commercial exploitation license were only aimed at the cloud providers making open source code available as a service while often not contributing back significantly, and not providing any revenue to upstream open source companies.
 
