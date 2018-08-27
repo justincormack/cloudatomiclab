@@ -15,4 +15,4 @@ I am mostly going to write about software, cloud, atomicity, but no doubt some o
 
 I work at Docker in Cambridge, UK. You can [find me on twitter](https://twitter.com/justincormack).
 
-<img src="cloudatomic.jpg" alt="Cloud Atomic Laboratory" style="width:100%"/>
+<img src="/cloudatomic.jpg" alt="Cloud Atomic Laboratory" style="width:100%"/>
