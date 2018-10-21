@@ -13,7 +13,10 @@ post](https://www.cloudatomiclab.com/noise-capabilities/). As before, you
 probably want to read [Capability Myths 
 Demolished](http://srl.cs.jhu.edu/pubs/SRL2003-02.pdf) and the [Noise Protocol 
 specification](https://noiseprotocol.org/noise.html) first for full value 
-extraction.
+extraction. This is a pretty rough draft, I was going to rewrite it but decided
+just to publish as is, work in progress, and write another post later, having
+left it for several weeks after writing it. This stuff needs a much clearer
+explanation.
 
 I went to a [Protocol Labs](https://protocol.ai) dinner last night (thanks for 
 the invite Mike) and managed to corner Brian Warner from 
