@@ -6,8 +6,6 @@ tags = []
 title = "Confused Deputies Strike Back"
 +++
 
-# Confused Deputies Strike Back
-
 A few weeks back Kubernetes had its first really severe security issue, 
 [CVE-2018-1002105](https://github.com/kubernetes/kubernetes/issues/71411).
 For some background on this, and how it was discovered, I recommend [Darren 

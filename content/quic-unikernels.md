@@ -6,8 +6,6 @@ tags = []
 title = "QUIC for Unikernels"
 +++
 
-## QUIC for Unikernels
-
 I had until recently mostly been ignoring QUIC. In case you had, QUIC is a 
 new-ish protocol developed to Google, that will probably be HTTP version 3. The 
 interesting pieces are that it runs over UDP not TCP, but supports reliable 
