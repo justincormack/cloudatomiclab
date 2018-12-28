@@ -87,7 +87,7 @@ only two parties and you just want to mediate access to a set of resources. But
 microservices do not appear to be in that sweet spot, as Kubernetes found out 
 with its API proxy microservice. Bugs can be fixed, but as the retrospective 
 points out all changes will need to be examined for security issues. As Tyler 
-Treat says "the correct implementation of an access policy cannot be 
+Close says "the correct implementation of an access policy cannot be 
 ascertained by an examination of the ACLs configured for an application, but 
 must also include an examination of the program’s source code. To date, this 
 technique has been error prone." It was not even the only bug that week that 
