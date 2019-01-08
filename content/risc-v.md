@@ -57,7 +57,7 @@ is building chips with over a thousand 64 bit RISC-V cores on. The market for
 specialist AI chips came along at the same time as RISC-V was maturing, and it 
 was a logical new market.
 
-RISC-V is by no means mature; it may have shipped 10-100 million cores in 2018, 
+RISC-V is by no means mature; it is forecast it will ship 10-100 million cores in 2019, 
 the majority of them 32 bit microcontrollers, but that adds to the interest, it 
 is at the stage where you can now start building things, and lots of people are 
 building things for fun or serious reasons, or porting code, or developing 
