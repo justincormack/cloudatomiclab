@@ -6,6 +6,9 @@ tags = []
 title = "Kubernetes as an API standard"
 +++
 
+*There is now a [rustyk8s mailing list](http://lists.opendev.org/cgi-bin/mailman/listinfo/rustyk8s)
+to discuss implementations of the Kubernetes API in Rust.*
+
 There was a lot of interest in my tweet a couple of months about writing an 
 implementation of the Kubernetes API in Rust. I had a good conversation at 
 Kubecon with some people about it, and thought I should explain more why it is 
