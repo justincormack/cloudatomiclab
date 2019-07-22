@@ -102,7 +102,7 @@ shipped in Linux distributions. Linux distros are the de facto package manager
 for C code, and C++ to a lesser extent; neither of these langauges have 
 developed their own language specific package management yet. From the [Debian 
 stats](https://sources.debian.org/stats/), of the billion or so lines of code, 
-43% is NASI C and 24% is C++ which has many of the same problems in many 
+43% is ANSI C and 24% is C++ which has many of the same problems in many 
 codebases. So 670 [million lines of 
 code](https://informationisbeautiful.net/visualizations/million-lines-of-code/),
  in general without enough maintainers to deal with the existing and coming 
