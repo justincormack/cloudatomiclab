@@ -105,7 +105,7 @@ stats](https://sources.debian.org/stats/), of the billion or so lines of code,
 43% is ANSI C and 24% is C++ which has many of the same problems in many
 codebases. So 670 [million lines of
 code](https://informationisbeautiful.net/visualizations/million-lines-of-code/),
- in general without enough maintainers to deal with the existing and coming
+in general without enough maintainers to deal with the existing and coming
 waves of security issues that fuzzing will find. This is the backdrop of
 increasing complaints about unfixed CVEs in Docker containers, where these tend
 to me more visible due to wider use of scanning tools.
