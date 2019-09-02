@@ -71,7 +71,7 @@ As you can see a very large proportion are buffer overflows, manual memory
 management issues like use after free, and the
 "[ubsan](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)"
 category, which is all the stuff in C or C++ code that if you happen to write
-it the compiler can turn your program into hot garbage if it feel like it.
+it the compiler can turn your program into hot garbage if it feels like it.
 Memory safety is still a major cause of errors, as you can see if you follow
 the [@LazyFishBarrel](https://twitter.com/LazyFishBarrel) twitter account. Note
 that the majority of projects are still not running comprehensive automated
@@ -149,9 +149,9 @@ especially in containerised environments, but some is, and you will spend
 increasing amounts of time working out what is a risk. The sheer volume of
 security issues just makes risk management more difficult.
 
-If your are a die hard C hacker and want to last bastion of C is of course
-OpenBSD. Throw up the `pledge` barricades, remove anything you can, keep
-reviewing. That is the only heroic path left.
+If you are a die hard C hacker and want to remain one, the last bastion of C is
+of course OpenBSD. Throw up the `pledge` barricades, remove anything you can,
+keep reviewing. That is the only heroic path left.
 
 In the short term, start to explore and invest in ways to replace every legacy
 C dependency you are currently using. Write a deprecation roadmap. Cut down
