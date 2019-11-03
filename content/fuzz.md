@@ -6,8 +6,6 @@ tags = []
 title = "Fuzz rising"
 +++
 
-## Fuzz rising
-
 Go and read the excellent [blog post from Cloudflare on their recent
 outage](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2
 019/) if you haven't already.
