@@ -1,9 +1,9 @@
 +++
 author = "Justin Cormack"
 date = "2019-11-01T17:27:00Z"
-description = "Linearity among the touctou"
+description = "Linearity among the toctou"
 tags = []
-title = "Linearity among the touctou"
+title = "Linearity among the toctou"
 +++
 
 <img src="/lineforawalk.png" width=40%">
