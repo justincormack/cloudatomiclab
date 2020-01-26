@@ -159,7 +159,7 @@ absolutely delicious. If you love this style, Moeder Lambic is a great place to
 try it. There have been a number of new breweries open recently, de la Senne is
 excellent and available in good bars.
 
-This year, the Friday might before Fosdem is Brexit. Brussels has a large UK
+This year, the Friday night before Fosdem is Brexit. Brussels has a large UK
 community, and Fosdem always has a large UK contingent, with whole Eurostar
 trains being filled on Friday evening usually. So be nice to any of us you see.
 
